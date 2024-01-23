@@ -553,8 +553,20 @@ ul li a:hover{
         align-items: center;
     }
 
+    .logo{
+        width: 25vw;
+    }
+
     .introduccion{
         width: 100%;
+    }
+
+    .introduccion-info p{
+        font-size: 20px;
+    }
+
+    .introduccion-title{
+        font-size: 30px;
     }
 
     .card-image{
