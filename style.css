@@ -29,7 +29,7 @@ nav{
 ul{
     display: flex;
     justify-content: space-around;
-    gap: 30px;
+    gap: 3vw;
     list-style: none;
     font-size: x-large;
     align-items: center;
@@ -480,10 +480,6 @@ ul li a:hover{
     .mapa{
         display: none;
     }
-}
-
-@media (max-width: 768px){
-    
 
     .nav{
         display: flex;
@@ -496,7 +492,6 @@ ul li a:hover{
         justify-content: space-around;
         flex-direction: column;
         position: absolute;
-        gap: 30px;
         width: 100%;
         height: calc(100vh - 14vh);
         list-style: none;
@@ -514,6 +509,24 @@ ul li a:hover{
         color: #00b600;
     }
 
+    .toggle-menu{
+        display: flex;
+        position: relative;
+        right: 30px;
+        
+    }
+
+    #toggle-menu:checked ~ ul{
+        display: flex;
+    } 
+
+}
+
+
+@media (max-width: 768px){
+    
+
+
     
 
     .contact{
@@ -529,16 +542,6 @@ ul li a:hover{
         display: none;
     }
 
-    .toggle-menu{
-        display: flex;
-        position: relative;
-        right: 30px;
-        
-    }
-
-    #toggle-menu:checked ~ ul{
-        display: flex;
-    } 
     
 
 
