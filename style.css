@@ -377,8 +377,22 @@ ul li a:hover{
     margin-top: 25px;
 }
 
+.location{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.location p{
+    font-size: 20px;
+    width: 50vw;
+}
+
 .mapa{
-    width: 500px;
+    width: 50vw;
+    height: 80%;
+    max-width: 300px;
     border: 2px solid black;
     border-radius: 15px;
     margin-left: 15px;
